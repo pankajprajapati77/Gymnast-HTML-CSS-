@@ -1,11 +1,16 @@
 *{
     font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
 }
-/* body{
-    background-image: url(./img/carousel-1.jpg);
-} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-header-for-image{
     background-image: url(./img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .main-header{
     display: flex;
@@ -52,10 +57,51 @@
     color: white;
     font-family: 'Anton', sans-serif;
 }
-.on-image>button{
-    font-size: 34px;
+.join-button{
+    font-size: 20px;
     padding: 10px;
     margin: 95px;
-    
+    background: none;
+    color: white;
+    border-color: white;
+}
+
+.join-button:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+.main-sections{
+    display: flex;
+}
+.main-bodybuilding{
+    /* border: solid black; */
+    background-image: url(./img/bodyb.png);
+    color: white;
+    width: 40%;
+    margin-left: 150px;
+    background-size: 100%;
+    /* color: rgb(184, 43, 43); */
+    /* background-size: 60% 60%;
+    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    height: 398px;
+    text-align: center;
+}
+
+.headings-cont{
+    /* border: 1px solid lightgreen; */
+}
+.main-musclebuilding{
+    border: solid black;
+    width: 40%;
+    background-image: url(./img/muscleb.png);
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    height: 398px;
+    text-align: center;
 }
 
