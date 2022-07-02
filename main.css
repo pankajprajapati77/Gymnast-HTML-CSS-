@@ -145,6 +145,52 @@ body{
 .main-joinus2{
     background-color: white;
 }
-.flaticon-barbell{
-    display: inline;
+.image-about>img{
+    margin-top: 426px;
+    margin-left: 171px;
+    width: 70%;
+}
+.main-step2-start{
+    display: flex;
+}
+.experience-award-gym{
+    margin-top: 392px;
+    margin-left: -30px;
+}
+.main-cerified-award{
+    display: flex;
+}
+.main-award-winning{
+    margin-left: 75px;
+}
+.main-year-experience>h1{
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+
+}
+.main-cerified-gym>h3{
+    font-size: 20px;
+}
+.h3-centre{
+    font-family: 'Anton', sans-serif;
+}
+.h3-winning{
+    font-family: 'Anton', sans-serif;
+}
+.main-pre1, .main-pre2{
+    font-size: 19px;
+}
+.main-year-pre{
+    font-size: 19px;
+}
+.main-button-learn{
+    font-size: 26px;
+    margin-top: 20px;
+    background: white;
+    color: red;
+    border-color: red;
+}
+.main-button-learn:hover{
+    color: white;
+    background-color: red;
 }
