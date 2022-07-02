@@ -25,7 +25,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 25px;
     background-color: black;
     color: white;
@@ -75,6 +75,9 @@ body{
 }
 .main-sections{
     display: flex;
+    position: absolute;
+    top: 677px;
+    left: 22px
 }
 .main-bodybuilding{
     /* border: solid black; */
@@ -93,6 +96,8 @@ body{
 
 .headings-cont{
     /* border: 1px solid lightgreen; */
+    margin-top: 101px;
+
 }
 .main-musclebuilding{
     border: solid black;
@@ -104,4 +109,42 @@ body{
     height: 398px;
     text-align: center;
 }
-
+.bodybuilding, .musclebuilding{
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    
+}
+.bodybuilding-description, .musclebuilding-description{
+    font-size: 20px;
+}
+.headings-cont1{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 107px;
+    color: #DAA520
+}
+.headings-cont2{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 107px;
+}
+.main-joinus1, .main-joinus2{
+    font-size: 28px;
+    padding: 10px;
+    
+}
+.main-joinus1:hover{
+    background-color: white;
+}
+.main-joinus2:hover{
+    background-color: #DAA520;
+}
+.main-joinus1{
+    background-color: #DAA520;
+}
+.main-joinus2{
+    background-color: white;
+}
+.flaticon-barbell{
+    display: inline;
+}
