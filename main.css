@@ -16,10 +16,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.main-title{
+/* .main-title{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-}
+} */
 .main-ul{
     /* border: 1px solid red; */
     display: flex;
@@ -36,13 +37,15 @@ body{
 .main-ul li:hover{
     color: red;
 }
-
 .main-ul>li{
     margin-right: 50px;
 }
-.main-title>a{
+.main-title>h1{
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
 }
 .on-image{
     text-align: center;
@@ -81,28 +84,27 @@ body{
 }
 .main-bodybuilding{
     /* border: solid black; */
-    background-image: url(./img/bodyb.png);
-    color: white;
+    /* background-image: url(./img/bodyb.png); */
+    background-color: red;
+    /* color: black; */
     width: 40%;
     margin-left: 150px;
     background-size: 100%;
-    /* color: rgb(184, 43, 43); */
-    /* background-size: 60% 60%;
-    background-repeat: no-repeat; */
     background-repeat: no-repeat;
     height: 398px;
     text-align: center;
 }
-
 .headings-cont{
     /* border: 1px solid lightgreen; */
     margin-top: 101px;
+    
 
 }
 .main-musclebuilding{
     border: solid black;
     width: 40%;
-    background-image: url(./img/muscleb.png);
+    /* background-image: url(./img/muscleb.png); */
+    background-color: black;
     background-size: 100%;
     color: white;
     background-repeat: no-repeat;
@@ -111,40 +113,46 @@ body{
 }
 .bodybuilding, .musclebuilding{
     font-size: 45px;
-    font-family: 'Anton', sans-serif;
-    
+    font-family: 'Anton', sans-serif; 
 }
 .bodybuilding-description, .musclebuilding-description{
     font-size: 20px;
 }
 .headings-cont1{
     text-align: right;
-    margin-right: 15px;
-    margin-top: 107px;
-    color: #DAA520
+    margin-right: 30px;
+    margin-top: 80px;
+    color: white
 }
 .headings-cont2{
     text-align: left;
-    margin-left: 15px;
-    margin-top: 107px;
+    margin-left: 30px;
+    margin-top: 80px;
 }
 .main-joinus1, .main-joinus2{
     font-size: 28px;
     padding: 10px;
-    
 }
 .main-joinus1:hover{
     background-color: white;
+    color: black;
 }
 .main-joinus2:hover{
-    background-color: #DAA520;
-}
-.main-joinus1{
-    background-color: #DAA520;
-}
-.main-joinus2{
     background-color: white;
+    color: black;
 }
+.main-joinus1, .main-joinus2{
+    background: none;
+    color: white;
+    border-color: white;
+    
+}
+
+/* .main-joinus2{
+    background: none;
+    color: white;
+    border-color: white;
+} */
 .image-about>img{
     margin-top: 426px;
     margin-left: 171px;
@@ -166,7 +174,6 @@ body{
 .main-year-experience>h1{
     font-size: 55px;
     font-family: 'Anton', sans-serif;
-
 }
 .main-cerified-gym>h3{
     font-size: 20px;
@@ -193,4 +200,38 @@ body{
 .main-button-learn:hover{
     color: white;
     background-color: red;
+}
+.main-sections-const{
+    margin-top: 133px;
+    display: flex;
+}
+.section{
+    border: 1px solid black;
+    width: 34%;
+    text-align: center;
+}
+.main-progression, .main-workout, .main-nutrition{
+    margin-top: 19px;
+    margin-bottom: 42px;
+}
+.section1, .section3{
+    background-color: black;
+    color: white;
+}
+.section2{
+    background-color: red;
+    color: white;
+}
+.h1{
+    font-size: 38px;
+}
+.main-sections-pre.class{
+    font-size: 22px;
+    margin-top: -45px;
+}
+.fa-address-book, .fa-carrot{
+    color: red;
+}
+.fa-dumbbell{
+    color: black;
 }
