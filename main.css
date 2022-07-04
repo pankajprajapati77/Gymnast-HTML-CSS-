@@ -38,7 +38,7 @@ body{
     color: red;
 }
 .main-ul>li{
-    margin-right: 50px;
+    margin-right: 46px;
 }
 .main-title>h1{
     font-family: 'Anton', sans-serif;
@@ -209,10 +209,12 @@ body{
     border: 1px solid black;
     width: 34%;
     text-align: center;
+    
 }
 .main-progression, .main-workout, .main-nutrition{
     margin-top: 19px;
     margin-bottom: 42px;
+    font-family: 'Anton', sans-serif;
 }
 .section1, .section3{
     background-color: black;
@@ -234,4 +236,101 @@ body{
 }
 .fa-dumbbell{
     color: black;
+}
+.main-benifits-of-joining{
+    text-align: center;
+}
+.main-why-chooseus{
+    /* text-align: center; */
+    margin-top: 100px;
+}
+.instruction{
+    display: flex;
+    margin-left: 151px; 
+}
+.features{
+    width: 88%;
+}
+.feature1{
+    width: 90%;
+}
+.feature3, .feature4{
+    width: 95%;
+}
+.image-feature2{
+    width: 35%;
+}
+/* .step5{
+    border: 1px solid black;
+} */
+/* .main-video.instruction{
+    margin-left: 255px;
+} */
+.ipsum, .dolor{
+    font-family: 'Anton', sans-serif;
+    /* font-size: 20px; */
+    
+}
+.step5{
+    display: flex;
+}
+.main-training.instruction{
+    margin-top: 74px;
+    
+}
+.const-communitySupport.step5{
+    margin-right: 146px;
+}
+.main-video-free-training-community{
+    margin-top: 75px;
+}
+.main-benifit{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+.main-choose{
+    color: rgb(255, 0, 0);
+    font-family: 'Anton', sans-serif;
+}
+.ipsum{
+    font-size: 22px;
+}
+.yes-training{
+    margin-left: 8px;
+}
+/* .yes-community{
+    width: 55%;
+} */
+.const-freeApps.step5{
+    margin-left: 11px;
+}
+.fa-youtube, .fa-wifi, .fa-calendar-week,
+.fa-handshake-angle{
+    background-color: red;
+    color: white;
+    /* position: absolute;
+    left: 30px; */
+    border: 5px solid red;
+    
+}
+.fa-calendar-week{
+    /* border: 5px solid red; */
+    position: absolute;
+    left: 338px;
+    top: 2649px;
+}
+.fa-youtube{
+    position: absolute;
+    left: 307px;
+    top: 2411px;
+}
+.fa-wifi{
+    position: absolute;
+    left: 945px;
+    top: 2411px;
+}
+.fa-handshake-angle{
+    position: absolute;
+    left: 932px;
+    top: 2652px;
 }
