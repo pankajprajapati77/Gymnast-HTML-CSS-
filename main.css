@@ -334,3 +334,38 @@ body{
     left: 932px;
     top: 2652px;
 }
+.main-subscribe-button{
+    border: 1px solid black;
+    text-align: center;
+    background-image: url(./img/./bg.jpg);
+    filter: brightness(30%);
+
+}
+.main-button.subscribe{
+    display: flex;
+    text-align: center;
+    margin-left: 573px;
+    /* font-size: 30px; */
+    
+}
+.input-placeholder{
+    font-size: 20px;
+    padding: 11px;
+    
+}
+.buttonSubscribe{
+    font-size: 20px;
+    padding: 11px;
+    background-color: red;
+    color: white;
+    
+}
+.subscribeOur{
+    font-family: 'Anton', sans-serif;
+    font-size: 53px;
+    color: white;
+}
+.subscribe-Para{
+    font-size: 23px;
+    color: white;
+}
