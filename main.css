@@ -335,10 +335,9 @@ body{
     top: 2652px;
 }
 .main-subscribe-button{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
-    background-image: url(./img/./bg.jpg);
-    filter: brightness(30%);
+    margin-top: 92px;
 
 }
 .main-button.subscribe{
@@ -346,6 +345,7 @@ body{
     text-align: center;
     margin-left: 573px;
     /* font-size: 30px; */
+    margin-bottom: 30px;
     
 }
 .input-placeholder{
@@ -368,4 +368,19 @@ body{
 .subscribe-Para{
     font-size: 23px;
     color: white;
+}
+.main-newsletter.subscribe{
+    margin-top: 104px;
+
+}
+.main-for-whole{
+    position: relative;
+    top: 130px;
+}
+.const-shoulder-image{
+    width: 100%;
+    filter: brightness(19%);
+    position: absolute;
+    clip: rect(-0.5rem, 95rem, 26rem, -70rem);
+    right: 0rem;
 }
