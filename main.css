@@ -372,7 +372,6 @@ body{
 }
 .main-newsletter.subscribe{
     margin-top: 104px;
-
 }
 .main-for-whole{
     position: relative;
@@ -402,14 +401,12 @@ body{
 #all-classes{
     list-style: none;
     display: flex;
-    /* margin-left: 591px; */
-    
-    justify-content: space-evenly;
-    /* text-align: center; */
+    justify-content: center;
+    text-align: center;
     font-size: 18px;
 }
 .const-table{
-    margin-left: 159px;
+    margin-left: 187px;
 }
 .table-li{
     border: 1px solid red;
@@ -417,12 +414,17 @@ body{
     background-color: red;
     padding: 10px;
 }
-.table-lies{
-    color: red;
+.lies{
+    margin-right: 56px;
+    margin-bottom: 20px;
 }
-/* .const-daysName-timing-trainername{
-    border: 1px solid black;
-} */
+.table-li2, .table-li3, .table-li4{
+    color: red;
+    margin-top: 13px;
+}
+.table-li2:hover, .table-li3:hover, .table-li4:hover{
+    text-decoration: underline;
+}
 th{
     border: 1px solid black;
     color: white;
@@ -434,13 +436,8 @@ th{
 td{
     border: 0.5px solid rgb(155, 155, 155);
     padding: 8px;
-    /* font-family: 'Oswald', sans-serif; */
-    /* border-collapse: collapse; */
-    font-size: 20px;
-    
+    font-size: 18px;
 }
-/* table{
-    border-collapse: collapse;
-} */
+
 
 
