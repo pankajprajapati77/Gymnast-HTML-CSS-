@@ -438,6 +438,27 @@ td{
     padding: 8px;
     font-size: 18px;
 }
+#bmi{
+    margin-top: 97px;
+    display: flex;
+}
+.main-body.mass{
+    border: 1px solid black;
+    /* padding: 83px;
+    padding-right: 260px; */
+    /* background-image: url(./img/./carousel-1.jpg); */
+}
+.main-calculate.mass{
+    border: 1px solid black;
+    padding: 98 px;
+}
+.image-again-carousel{
+    width: 48rem;
+}
+.const-index-bmi{
+    position: absolute;
+    top: 4397px;
+}
 
 
 
