@@ -11,7 +11,7 @@ body{
     background-image: url(./img/carousel-1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    filter: brightness(0.5);
+    /* filter: brightness(0.5); */
 }
 .main-header{
     display: flex;
@@ -388,3 +388,59 @@ body{
 .main-table{
     margin-top: 314px;
 }
+.const-daysName-timing-trainername, .main-class.timetable{
+    text-align: center;
+}
+.main-class.timetable>h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+}
+.main-class.timetable>h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+#all-classes{
+    list-style: none;
+    display: flex;
+    /* margin-left: 591px; */
+    
+    justify-content: space-evenly;
+    /* text-align: center; */
+    font-size: 18px;
+}
+.const-table{
+    margin-left: 159px;
+}
+.table-li{
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+.table-lies{
+    color: red;
+}
+/* .const-daysName-timing-trainername{
+    border: 1px solid black;
+} */
+th{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+}
+td{
+    border: 0.5px solid rgb(155, 155, 155);
+    padding: 8px;
+    /* font-family: 'Oswald', sans-serif; */
+    /* border-collapse: collapse; */
+    font-size: 20px;
+    
+}
+/* table{
+    border-collapse: collapse;
+} */
+
+
