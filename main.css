@@ -442,23 +442,72 @@ td{
     margin-top: 97px;
     display: flex;
 }
-.main-body.mass{
-    border: 1px solid black;
-    /* padding: 83px;
-    padding-right: 260px; */
-    /* background-image: url(./img/./carousel-1.jpg); */
-}
 .main-calculate.mass{
-    border: 1px solid black;
-    padding: 98 px;
+    background-color: #111;
+    height: 27rem;
 }
 .image-again-carousel{
     width: 48rem;
+    height: 27rem;
 }
 .const-index-bmi{
     position: absolute;
     top: 4397px;
 }
-
-
-
+.place{
+    font-size: 21px;
+    padding: 8px;
+    background-color: #343a40;
+    border: 1px solid white;
+}
+.main-calculate-your-bmi>h2{
+    font-size: 41px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.main-calculate-your-bmi{
+    margin-top: 86px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.const-age-gender.detail{
+    margin-top: 20px;
+}
+.const-kg.place{
+    margin-right: 14px;
+}
+.const-age.place{
+    margin-right: 14px;
+}
+.button-calculateNow{
+    margin-top: 20px;
+    font-size: 21px;
+    border: 3px solid white;
+    background-color: #343a40;
+    color: white;
+    padding: 7px 184px 7px 184px;
+}
+.const-what-is-bmi{
+    color: white;
+    font-size: 65px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 162px;
+    margin-top: -22px;
+}
+.const-index{
+    color: red;
+    font-size: 25px;
+    margin-left: 158px;
+}
+.const-consequuntur{
+    color: white;
+}
+.image-again-carousel{
+    filter: brightness(44%);
+}
+.const-consequuntur{
+    margin-left: 167px;
+    margin-top: -20px;
+}
