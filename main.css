@@ -511,3 +511,20 @@ td{
     margin-left: 167px;
     margin-top: -20px;
 }
+.main-our-trainers{
+    text-align: center;
+    margin-top: 85px;
+}
+.main-our-trainers>h4{
+    color: red;
+    font-size: 25px;
+}
+.main-our-trainers>h1{
+    color: #343a40;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+.main-trainer-images{
+    display: flex;
+    width: 23rem;
+}
