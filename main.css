@@ -511,6 +511,11 @@ td{
     margin-left: 167px;
     margin-top: -20px;
 }
+.const-gender{
+    padding-right: 144px;
+    height: 44px;
+    color: grey;
+}
 .main-our-trainers{
     text-align: center;
     margin-top: 85px;
@@ -527,4 +532,31 @@ td{
 .main-trainer-images{
     display: flex;
     width: 23rem;
+    margin-left: 178px;
+}
+.trained{
+    width: 70%;
+    text-align: center;
+    margin-left: 26px;
+}
+.trainer-names{
+    display: flex;
+    width: 71rem;
+    margin-left: 178px;
+}
+.trainer-name{
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 26px;
+    width: 70%;
+    background-color: #111;
+}
+.trainer-name>h2{
+    color: red;
+}
+.trainer-name>h3{
+    color: white;
+}
+.trainers{
+    border-radius: 1px solid red;
 }
