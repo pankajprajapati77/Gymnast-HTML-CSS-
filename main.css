@@ -560,3 +560,13 @@ td{
 .trainers{
     border-radius: 1px solid red;
 }
+.const-time-jan{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/* .const-small{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
