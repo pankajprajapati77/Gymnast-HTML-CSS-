@@ -6,9 +6,10 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 .main-header-for-image{
-    background-image: url(./img/carousel-1.jpg);
+    background-image: url(./img/carousel-3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* filter: brightness(0.5); */
@@ -43,10 +44,12 @@ body{
 }
 .main-title>h1{
     font-family: 'Anton', sans-serif;
-    font-size: 52px;
+    font-size: 59px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
+    color: white;
+    margin-left: 35px;
 }
 .on-image{
     text-align: center;
@@ -68,6 +71,12 @@ body{
     background: none;
     color: white;
     border-color: white;
+    padding: 15px  32px 15px 32px;
+    /* padding-top
+    padding-right
+    padding-bottom
+    padding-left */
+    
 }
 
 .join-button:hover{
@@ -80,7 +89,7 @@ body{
 .main-sections{
     display: flex;
     position: absolute;
-    top: 677px;
+    top: 716px;
     left: 22px
 }
 .main-bodybuilding{
@@ -600,7 +609,7 @@ td{
     margin-left: 16px;
     font-weight: 700;
 }
-.fa-solid{
+.fa-user, .fa-folder, .fa-comments{
     font-size: 10px;
     font-size: 17px;
     color: #666;
@@ -665,7 +674,30 @@ td{
     color: white;
     /* justify-content: space-evenly; */
    margin-left: 145px;
+   margin-top: 84px;
 }
 .main-image-source-bg{
     width: 100%;
+   /* clip: rect(0px, 345px, 456px, 0px); */
+   filter: brightness(13%);
+}
+.content{
+    font-size: 18px;
+    list-style-type:disclosure-closed;
+    
+}
+.child>pre{
+    font-size: 25px;
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+.const-last-para{
+    position: absolute;
+    top: 6412px;
+    color: white;
+    margin-left: 502px;
+    font-size: 17px;
+    border-top: 1px solid white;
+    padding: 13px;
 }
